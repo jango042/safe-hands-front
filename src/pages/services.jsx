@@ -449,7 +449,7 @@ const handleOpen = (value) => {
           color="white"
           className="mt-6 flex justify-center gap-1 text-7xl font-normal"
         >
-          <span className="mt-2 text-4xl">N</span>20K{" "}
+          <span className="mt-2 text-4xl">N</span>30K{" "}
           <span className="self-end text-4xl">/mo</span>
         </Typography>
       </CardHeader>
@@ -549,7 +549,7 @@ const handleOpen = (value) => {
           color="white"
           className="mt-6 flex justify-center gap-1 text-7xl font-normal"
         >
-          <span className="mt-2 text-4xl">N</span>40K{" "}
+          <span className="mt-2 text-4xl">N</span>50K{" "}
           <span className="self-end text-4xl">/mo</span>
         </Typography>
       </CardHeader>
@@ -648,7 +648,7 @@ const handleOpen = (value) => {
           color="white"
           className="mt-6 flex justify-center gap-1 text-7xl font-normal"
         >
-          <span className="mt-2 text-4xl">N</span>60K{" "}
+          <span className="mt-2 text-4xl">N</span>70K{" "}
           <span className="self-end text-4xl">/mo</span>
         </Typography>
       </CardHeader>
@@ -683,7 +683,7 @@ const handleOpen = (value) => {
               <CheckIcon />
             </span>
             <Typography className="font-normal">
-              <b>Priority Support:</b> Priority access to customer support and dedicated account managers.
+              <b>Priority Support:</b> Priority access to customer support and dedicated account managers.
             </Typography>
           </li>
         </ul>

@@ -9,6 +9,7 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Logo from "../../assets/safeHands.jpg"
 
 export function Navbar({ brandName, routes, action }) {
   const [openNav, setOpenNav] = React.useState(false);
@@ -67,6 +68,7 @@ export function Navbar({ brandName, routes, action }) {
           <Typography className="mr-4 ml-2 cursor-pointer py-1.5 font-bold">
             {brandName}
           </Typography>
+          {/* <img src={Logo} style={{objectFit:"contain", width:"200px"}} /> */}
         </Link>
         <div className="hidden lg:block">{navList}</div>
         <div className="hidden gap-2 lg:flex">
@@ -123,6 +125,7 @@ export function Navbar({ brandName, routes, action }) {
 
 Navbar.defaultProps = {
   brandName: "SAFEHANDS",
+  brandLogo: Logo,
   action: (
     <a
       href="/sign-up"
